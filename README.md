@@ -2,9 +2,9 @@
 
 A modern, responsive web application for browsing Rick & Morty characters with advanced search, filtering, and sorting capabilities.
 
-##Features
+## Features
 
-###Core Functionality
+### Core Functionality
 - **Character Browsing** - View detailed character information from the Rick & Morty universe
 - **Real-time Search** - Search characters by name with 500ms debouncing
 - **Advanced Filtering** - Filter by status (Alive/Dead/Unknown), species, and gender
@@ -12,7 +12,7 @@ A modern, responsive web application for browsing Rick & Morty characters with a
 - **Pagination** - Navigate through multiple pages of results
 - **Responsive Design** - Works seamlessly on desktop and mobile devices
 
-###Advanced Features
+### Advanced Features
 - **Debounced Search** - Optimized API calls with 500ms delay
 - **URL Synchronization** - All filters persist in URL for bookmarking/sharing
 - **Clear Filters** - One-click reset of all search and filter criteria
@@ -20,7 +20,7 @@ A modern, responsive web application for browsing Rick & Morty characters with a
 - **Error Handling** - Graceful error display with retry functionality
 - **Loading States** - Smooth loading indicators throughout the app
 
-##Technologies Used
+## Technologies Used
 
 ### Frontend Framework & Libraries
 - **React 18** - Modern React with hooks and functional components
@@ -42,7 +42,7 @@ A modern, responsive web application for browsing Rick & Morty characters with a
 - **Rick & Morty API** - External REST API for character data
 - **Custom API Service** - Abstracted API calls with TypeScript interfaces
 
-##Project Structure
+## Project Structure
 
 ```
 ey-assignment/
@@ -76,7 +76,7 @@ ey-assignment/
 └── README.md                 # Project documentation
 ```
 
-##Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Node.js** (v16 or higher)
@@ -117,7 +117,7 @@ ey-assignment/
 - **`npm run test:coverage`** - Run tests with coverage report
 - **`npm run type-check`** - Type checking without compilation
 
-##Testing
+## Testing
 
 The project includes comprehensive test coverage with:
 
@@ -146,7 +146,7 @@ npm run test:ui
 - URL synchronization
 - Clear filters functionality
 
-##UI/UX Features
+## UI/UX Features
 
 ### Design System
 - **Clean Interface** - Modern, minimalist design
@@ -161,7 +161,7 @@ npm run test:ui
 - **Clear Visual Hierarchy** - Well-organized information layout
 - **Accessibility** - Keyboard navigation and screen reader support
 
-##Development Features
+## Development Features
 
 ### Code Quality
 - **TypeScript** - Full type safety throughout the application
@@ -175,7 +175,7 @@ npm run test:ui
 - **Optimized Builds** - Tree-shaking and code splitting with Vite
 - **Efficient Re-renders** - Optimized React component updates
 
-##API Integration
+## API Integration
 
 ### Rick & Morty API
 - **Base URL**: `https://rickandmortyapi.com/api`
