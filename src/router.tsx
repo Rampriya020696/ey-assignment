@@ -19,13 +19,19 @@ const rootRoute = createRootRoute({
   ),
 });
 
-// Character list route with page parameter
+// Character list route with search parameters
 const indexRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: '/',
   validateSearch: (search: Record<string, unknown>) => {
     return {
       page: Number(search.page) || 1,
+      name: (search.name as string) || '',
+      status: (search.status as 'alive' | 'dead' | 'unknown' | '') || '',
+      species: (search.species as string) || '',
+      gender: (search.gender as 'female' | 'male' | 'genderless' | 'unknown' | '') || '',
+      sortBy: (search.sortBy as string) || '',
+      sortOrder: (search.sortOrder as 'asc' | 'desc') || 'asc',
     };
   },
   component: CharacterList,
